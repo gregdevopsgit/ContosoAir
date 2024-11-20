@@ -33,7 +33,7 @@ steps:
     subscriptionId: 'a172b9e4-9ad7-4042-9ddc-11f5c535b092'
     action: 'Create Or Update Resource Group'
     resourceGroupName: '$(resourcegroup)'
-    location: 'Canada Central'
+    location: 'West US 2'
     templateLocation: 'Linked artifact'
     csmFile: '$(Pipeline.Workspace)/drop/Templates/azuredeploy.json'
     csmParametersFile: '$(Pipeline.Workspace)/drop/Templates/azuredeploy.parameters.json'
